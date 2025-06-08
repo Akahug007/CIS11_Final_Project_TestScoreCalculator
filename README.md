@@ -23,6 +23,7 @@ Minimum/Maximum Calculation: Iterates through the stored scores to find the mini
 Average Calculation: Computes the integer average of the five scores.
 
 How to Assemble and Run:
+
 To run this program, you will need an LC-3 Editor and Simulator (such as LC3Tools or PennSim).
 
 Load the Code: Open your LC-3 Editor and load the .asm file.
