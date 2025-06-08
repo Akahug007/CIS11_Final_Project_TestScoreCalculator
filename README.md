@@ -6,6 +6,9 @@ It is a console-based program coded in Assembly LC-3.
 The program takes 5 user inputs which are test scores and would then calculate
 and output the letter grades of each of the scores and display the minimum, maximum, and average of the scores
 
+________________________________________________________________________________________________________________________________________________________________________________
+
+
 How it runs:
 Scores are calculated in this set:
 90-99: A
@@ -21,6 +24,8 @@ Scores are calculated in this set:
 Minimum/Maximum Calculation: Iterates through the stored scores to find the minimum and maximum values.
 
 Average Calculation: Computes the integer average of the five scores.
+
+________________________________________________________________________________________________________________________________________________________________________________
 
 How to Assemble and Run:
 
