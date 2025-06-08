@@ -1,5 +1,18 @@
-; THIS PROGRAM CALCULATES THE MINIMUM, MAXIMUM, AND AVERAGE OF FIVE SCORES.
-; IT THEN DISPLAYS THESE CALCULATED VALUES ALONG WITH AN EQUIVALENT LETTER GRADE FOR EACH SCORE.
+; CIS11 - 23651
+; Hugo Ngo and Sadia Plimley
+; Final Project - Test Score Calculator
+; Description:
+;  LC-3 Program that takes user input which are their test scores as numbers
+;  Then outputs the letter grades that corresponds their scores
+;  And outputs the maximum, minimum, and average of those scores
+; Inputs: 5 Test Scores from the user
+; Outputs: Letter Grades that represent the test scores
+;          Maximum, minimum, and average of those scores
+; Side Effects: None
+; Run:  Assemble the program
+;	Open the Simullate Software
+;	Load the Assembled program(.obj file)
+;	Run the code and see the output on the console
 
 .ORIG x3000                     ; Set program starting address to x3000
 
