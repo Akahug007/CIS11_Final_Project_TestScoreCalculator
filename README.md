@@ -34,7 +34,7 @@ Pointer-Based Array Access: Uses a base register as a pointer to access and stor
 3. How to Assemble and Run
 To run this program, you will need an LC-3 simulator (such as LC3Tools or PennSim).
 
-Load the Code: Open your LC-3 simulator and load the .asm file.
+Load the Code: Open your LC-3 simulator and load the .obj file.
 
 Assemble: Use the simulator's "Assemble" command to convert the assembly code into machine code. This will generate a .obj file.
 
