@@ -32,13 +32,13 @@ Stack Management: Utilizes the stack to pass the calculated letter grade from th
 Pointer-Based Array Access: Uses a base register as a pointer to access and store scores in an array.
 
 3. How to Assemble and Run
-To run this program, you will need an LC-3 simulator (such as LC3Tools or PennSim).
+To run this program, you will need an LC-3 Editor and Simulator (such as LC3Tools or PennSim).
 
-Load the Code: Open your LC-3 simulator and load the .obj file.
+Load the Code: Open your LC-3 Editor and load the .asm file.
 
-Assemble: Use the simulator's "Assemble" command to convert the assembly code into machine code. This will generate a .obj file.
+Assemble: Use the simulator's "Assemble" command to convert the assembly code into machine code. This will generate a .asm file.
 
-Run: Execute the program from the starting address (x3000). The simulator's console will display the prompt: Please enter 5 scores (each between 0 and 99):.
+Run: Execute the program through using the simulator and loading the .obj file created by the editor. The simulator's console will display the prompt: Please enter 5 scores (each between 0 and 99):.
 
 Enter Scores: Type a two-digit score (e.g., 87) and press Enter. The program will echo the score and display its letter grade. Repeat this for all five scores.
 
