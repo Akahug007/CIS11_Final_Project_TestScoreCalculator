@@ -60,12 +60,3 @@ STACK_PUSH_OP_RTN / STACK_POP_OP_RTN: Standard subroutines to push a value onto 
 VALIDATE_CHAR_INPUT_RTN: A helper routine that checks if a character input is a valid digit between '0' and '9'. If not, it displays an error and restarts the program.
 
 WIPE_GP_REGISTERS_RTN: A utility subroutine to clear general-purpose registers, ensuring a clean state for other subroutines.
-
-5. Known Issues
-As of the current version, there are known logic errors in the calculation routines:
-
-FIND_MINIMUM_SCORE Bug: The logic incorrectly reloads the first score from the array on every iteration of its comparison loop. This prevents it from correctly identifying the true minimum value unless it is the first score entered.
-
-FIND_MAXIMUM_SCORE Bug: The loop control for finding the maximum score is flawed. The loop counter is not decremented correctly, and the code to print the result is located inside the loop, causing the routine to terminate prematurely and output an incorrect result.
-
-Note: The letter grade calculation and average calculation functionalities work as intended.
