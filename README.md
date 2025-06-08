@@ -1,4 +1,4 @@
-LC-3 Score Analyzer
+LC-3 Score Calculator - CIS-11
 1. Project Description
 This is an LC-3 assembly language program designed to perform statistical analysis on a set of five student scores. The program prompts the user to enter five two-digit scores (ranging from 00 to 99). For each score entered, it immediately calculates and displays the corresponding letter grade.
 
